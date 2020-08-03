@@ -1,9 +1,9 @@
-import React from 'reat';
-import { Children } from 'react';
+import React from 'react';
+import '../assets/styles/components/Carousel.scss';
 
-const Carousel = ({children}) => (
-    <section class="carousel">
-    <div class="carousel__container">
+const Carousel = ({ children }) => (
+    <section className="carousel">
+    <div className="carousel__container">
         {children}
     </div>
     </section>
